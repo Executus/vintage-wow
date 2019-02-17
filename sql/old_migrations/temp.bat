@@ -1,0 +1,1 @@
+FOR %%A IN ("*_world.sql") DO "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql" --user=root --password=iron137man mangos0 < %%A >output.tab

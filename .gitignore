@@ -1,0 +1,137 @@
+#
+# NOTE! Please use 'git-ls-files -i --exclude-standard'
+# command after changing this file, to see if there are
+# any tracked files which get ignored after the change.
+#
+# Normal rules
+#
+.*
+*.o
+*.o.*
+*.a
+*.so
+*.so.dbg
+*.bin
+*.gz
+
+# Visual studio solution files
+*.tlog
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.db
+*.opendb
+*.exp
+*.res
+
+
+#
+# Top-level generic files
+#
+bin
+build
+tags
+TAGS
+!.gitignore
+!.gitattributes
+
+#
+# Build generated files
+#
+autom4te.cache
+
+#
+# Editors / debuggers / other output files
+#
+*~
+*.bak
+*.orig
+*.patch
+callgrind.out.*
+
+#
+# Git stuff
+#
+# stgit directories
+patches-*
+
+#
+# VS binaries output
+#
+bin/*
+win/*
+Win32
+
+#
+# VS temporary files
+#
+*.ncb
+*.suo
+*.sdf
+*.opensdf
+*.sln.cache
+*.vsp
+ipch
+*.user
+
+
+#
+# CMake temporary files
+#
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+
+#
+# OS specific
+#
+# MacOS
+.DS_Store
+
+# Nostalrius
+newsletter
+patch
+php
+
+sql/migrations/*.py
+
+# Generating by CMake
+revision.h
+migrations_list.h
+
+# Sub-directory src build folders
+src/shared/shared.dir
+src/shared/Debug
+src/shared/Release
+src/scripts/scripts.dir
+src/scripts/Debug
+src/scripts/Release
+src/realmd/realmd.dir
+src/realmd/Debug
+src/realmd/Release
+src/mangosd/mangosd.dir
+src/mangosd/Debug
+src/mangosd/Release
+src/game/game.dir
+src/game/Debug
+src/game/Release
+src/framework/framework.dir
+src/framework/Debug
+src/framework/Release
+
+# Sub-directory dep build folders
+dep/src/zlib/zlib.dir
+dep/src/zlib/Debug
+dep/src/zlib/Release
+dep/src/gsoap/gsoap.dir
+dep/src/gsoap/Debug
+dep/src/gsoap/Release
+dep/src/g3dlite/g3dlite.dir
+dep/src/g3dlite/Debug
+dep/src/g3dlite/Release
+dep/recastnavigation/Recast/Recast.dir
+dep/recastnavigation/Recast/Debug
+dep/recastnavigation/Recast/Release
+dep/recastnavigation/Detour/Source/detour.dir
+dep/recastnavigation/Detour/Source/Debug
+dep/recastnavigation/Detour/Source/Release
